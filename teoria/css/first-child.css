@@ -1,0 +1,20 @@
+
+p{
+    color: hotpink;
+}
+p:first-child {
+    color: lime;
+}
+
+a{
+    text-decoration: none;
+    color: #262626;
+}
+
+  #uno a:first-child{
+    color: lime;
+  }
+
+
+
+

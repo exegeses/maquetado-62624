@@ -1,0 +1,20 @@
+body{
+    background-color: #ddd;
+}
+table{
+    background-color: #fff;
+}
+tr{
+    height: 90px;
+}
+th, td{
+    border: 1px solid #ccc;
+}
+
+p{
+    background-color: #fff;
+    height: 750px;
+}
+p img{
+    vertical-align: middle;
+}

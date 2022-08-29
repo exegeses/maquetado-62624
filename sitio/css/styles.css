@@ -68,6 +68,23 @@ header{
     section img{
         margin: 69px 120px 60px 95px;
     }
+    .descarga{
+        width: 210px;
+        border: 1px solid #fff;
+        padding: 16px 0px;
+        border-radius: 36px;
+        font-weight: 300;
+        margin-top: 48px;
+        text-align: center;
+        transition: 300ms; /* .3s */
+    }
+    .descarga:hover{
+        color: #D596C0;
+        background-color: #fff;
+    }
+    .fa-brands{
+        font-size: 20px;
+    }
 
 /*##### main #####*/
 main{

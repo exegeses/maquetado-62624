@@ -1,0 +1,36 @@
+body{
+    font-family: Raleway;
+    font-size: 2em;
+    background-color: #cccccc;
+}
+main{
+    width: 600px;
+    margin: auto;
+    background-color: #d8d8d8;
+}
+    main article{
+        height: 732px;
+        background-color: #fff;
+        background-image: url(../imgs/verstappen.jpg);
+        background-repeat: no-repeat;
+        background-position: center 0;
+        background-size: 600px;
+        display: flex;
+        align-items: end; /* debajo */
+
+        transition: .3s;
+    }
+    main article:hover{
+        background-size: 650px;
+
+    }
+    /* magia */
+    main article:hover h2{
+        background-color: #323232;
+        color: #fff;
+    }
+    main article h2{
+        padding-left: 64px;
+        width: 100%;
+        height: 80px;
+    }

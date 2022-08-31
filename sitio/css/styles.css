@@ -160,3 +160,16 @@ footer {
         width: 16px;
         margin-left: 8px;
     }
+
+    #features{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #features article{
+        width: 326px;
+    }
+    #features article h2 img{
+        vertical-align: middle;
+        margin-right: 12px;
+    }

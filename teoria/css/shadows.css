@@ -1,0 +1,24 @@
+body{
+    font-family: Raleway;
+    width: 600px;
+    margin: auto;
+    font-size: 2em;
+}
+#caja{
+    /*background-color: #9eccc1;*/
+    width: 350px;
+    height: 180px;
+    border-radius: 8px;
+    /*box-shadow: x y blur color ;*/
+    box-shadow: 0px 0px 16px #ccc ;
+    transition: .3s;
+}
+#caja:hover{
+    box-shadow: 0px 0px 8px #b2b2b2;
+}
+
+p{
+    background-color: #ccc;
+    /*text-shadow: x y blur color ;*/
+    text-shadow: 0px 2px 0px #fff;
+}

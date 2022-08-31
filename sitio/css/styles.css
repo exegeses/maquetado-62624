@@ -133,6 +133,35 @@ main{
         width: 580px;
     }
 
+/*##### Planes de pagos #####*/
+    #planes{
+        height: 550px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #planes article{
+        width: 326px;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0px 0px 10px #999;
+    }
+    #planes h2{
+        margin-top: 32px;
+    }
+    #planes div{
+        margin: 20px 0px;
+        background-color: #F8F8F8;
+    }
+    #planes div span{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    #planes ul{
+        list-style: none;
+    }
+
+
 /*##### footer #####*/
 
 footer {
@@ -162,14 +191,18 @@ footer {
     }
 
     #features{
+        margin-top: 40px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
 
     #features article{
         width: 326px;
+        margin-bottom: 76px;
     }
     #features article h2 img{
         vertical-align: middle;
         margin-right: 12px;
     }
+

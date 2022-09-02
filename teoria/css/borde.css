@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Raleway;
+    font-size: 2em;
+
+    background-image: url(../imgs/moroccan-flower-dark.webp);
+    background-repeat: repeat-y;
+    background-position: -250px 0;
+}
+header{
+    height: 200px;
+    background-image: url(../imgs/moroccan-flower-dark.webp);
+    background-repeat: repeat-x;
+}
+main{
+    margin: 10px 200px;
+}

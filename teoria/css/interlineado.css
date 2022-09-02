@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+p, ul{
+    margin: 50px;
+}
+
+p{
+    line-height: 32px;
+}
+li{
+    line-height: 24px;
+    /* margin: 8px 0px; */
+}

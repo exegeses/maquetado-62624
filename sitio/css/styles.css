@@ -225,6 +225,63 @@ main{
         margin-top: 12px;
     }*/
 
+/*##### Contacto #####*/
+#fondo-contacto{
+    width: 100%;
+    padding: 60px 0px;
+    background-image: url(../imgs/bg-contacto.jpg);
+    background-size: cover;
+}
+    #fondo-contacto section{
+        background-color: #fff;
+        width: 1000px;
+        margin: auto;
+        padding: 60px;
+        border-radius: 16px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #fondo-contacto form{
+        width: 550px;
+    }
+    #fondo-contacto input,
+    #fondo-contacto button,
+    #fondo-contacto textarea
+    {
+        width: 100%;
+        border-radius: 12px;
+        border:none;
+        padding: 16px;
+        font-family: Raleway;
+        font-weight: 600;
+        color: #707070;
+    }
+
+    #fondo-contacto input,
+    #fondo-contacto textarea
+    {
+        background-color: #F4F4F4;
+        margin-bottom: 16px;
+    }
+    #fondo-contacto textarea{
+        height: 100px;
+        resize: none;
+    }
+
+    #fondo-contacto button{
+        background-color: #707070;
+        color: #fff;
+        transition: .3s;
+    }
+    #fondo-contacto button:hover{
+        background-color: #444;
+    }
+
+    #fondo-contacto div{
+        width: 250px;
+        background-color: #F4F4F4;
+    }
+
 /*##### footer #####*/
 
 footer {

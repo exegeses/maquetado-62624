@@ -227,7 +227,7 @@ main{
 
 /*##### Contacto #####*/
 #fondo-contacto{
-    width: 100%;
+
     padding: 60px 0px;
     background-image: url(../imgs/bg-contacto.jpg);
     background-size: cover;
@@ -260,6 +260,7 @@ main{
     #fondo-contacto input,
     #fondo-contacto textarea
     {
+        border: 1px solid #e8e8e8;
         background-color: #F4F4F4;
         margin-bottom: 16px;
     }
@@ -281,6 +282,23 @@ main{
     #fondo-contacto div{
         width: 250px;
         background-color: #F4F4F4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.6;
+        border-radius: 16px;
+        border: 1px solid #e8e8e8;
+    }
+    #fondo-contacto div img{
+        width: 72px;
+        height: 72px;
+        border: 1px solid #707070;
+        border-radius: 36px;
+        padding: 8px;
+        margin-top: 12px;
+    }
+    #fondo-contacto div a{
+        color: #707070;
     }
 
 /*##### footer #####*/

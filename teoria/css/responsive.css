@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway, sans-serif;
+    font-size: 2em;
+}
+
+/* x-small  - celular < 576px */
+@media ( min-width: 576px )
+{
+    main{
+        background-color: #A460ED;
+        color: #fff;
+    }
+}
+/* small  -  celular + tables de juguete  < 768 */
+@media ( min-width: 768px )
+{
+    main{
+        background-color: #F07DEA;
+        color: #fff;
+    }
+}
+
+/* medium   -  tablets  < 980 */
+@media ( min-width: 980px ) {
+    main{
+        background-color: #9FC9F3;
+        color: #333;
+    }
+}
+
+/* large  -  desktop  < 1200 */
+@media (min-width: 1200px)
+{
+    main{
+        background-color: #EEEEEE;
+        color: #333;
+    }
+}
+
+/* extrelarge  -  desktop  < 1400 */
+@media (min-width: 1400px)
+{
+    main{
+        background-color: #fff;
+        color: #333;
+    }
+}
